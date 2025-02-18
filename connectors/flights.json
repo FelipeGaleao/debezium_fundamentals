@@ -1,0 +1,17 @@
+{
+    "name": "flights-connector",  
+    "config": {  
+      "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+      "tasks.max": "1",  
+      "database.hostname": "mysql",  
+      "database.port": "3306",
+      "database.user": "root",
+      "database.password": "debezium",
+      "database.server.id": "184054",  
+      "topic.prefix": "flights-connector-v1",  
+      "database.include.list": "flights",  
+      "schema.history.internal.kafka.bootstrap.servers": "kafka:29092",  
+      "schema.history.internal.kafka.topic": "schema-changes.flights",
+      "table.include.list": "flights.flights"  
+    }
+  }
