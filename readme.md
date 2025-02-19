@@ -1,5 +1,5 @@
 # Debezium Fundamentals
-O objetivo desse repositório é executar um laboratório com o Debezium + Kafka.
+O objetivo desse repositório é executar um laboratório com o Debezium + Kafka. <br>
 O Debezium é uma plataforma open source que permite a captura de eventos (como transações) em banco de dados e a publicação desses eventos em um ou mais tópicos do Kafka. A plataforma é escalável, podendo ser deployada em uma ou mais máquinas através de Kubernetes (ou Docker Swarm).
 
 ## Componentes
